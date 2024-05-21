@@ -1,5 +1,9 @@
 .container {
+<<<<<<< Updated upstream
     width: 1176px;
+=======
+    width: 1146px;
+>>>>>>> Stashed changes
     margin: 0 auto;
     padding: 0 15px;
 }
