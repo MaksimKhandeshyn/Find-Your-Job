@@ -1,0 +1,24 @@
+body {
+  font-family: $font-famaly;
+}
+.reg-list {
+  display: flex;
+  align-items: center;
+  margin-left: 261px;
+  .reg-item:first-child {
+    margin-right: 40px;
+    .reg-link {
+      color: $text-primary;
+    }
+  }
+  .reg-item:last-child {
+    border-radius: 5px;
+    padding: 15px 30px;
+    width: 155px;
+    height: 49px;
+    background: $buttons-primary;
+    .reg-link:last-child {
+        color: $inputs-light;
+    }
+  }
+}
