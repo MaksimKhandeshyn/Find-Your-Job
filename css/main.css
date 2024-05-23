@@ -63,16 +63,21 @@ img {
   align-items: center;
 }
 
+.hero-container {
+  display: flex;
+  width: 460px;
+  flex-wrap: wrap;
+  position: relative;
+  padding-top: 118px;
+}
+
 .header {
-  background: #f2f3f6;
-  height: 782px;
   background: #f2f3f6;
 }
 
 .nav-list {
   display: flex;
   margin-left: 260px;
-  margin-top: 59px;
 }
 .nav-list .nav-item {
   margin-right: 20px;
@@ -111,4 +116,59 @@ body {
 }
 .reg-list .reg-item:last-child .reg-link:last-child {
   color: #fff;
+}
+
+.hero {
+  background-color: #f2f3f6;
+}
+.hero .hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  color: var(--text-primary);
+}
+.hero .hero-info {
+  font-size: 18px;
+  line-height: 140%;
+  color: var(--text-primary);
+  margin-top: 15px;
+}
+.hero .hero-form {
+  position: relative;
+}
+.hero .hero-form .form-input {
+  border: 1px solid rgba(209, 209, 209, 0.1);
+  border-radius: 5px;
+  width: 447px;
+  height: 70px;
+  padding-left: 25px;
+}
+.hero .hero-form .hero-btn {
+  position: absolute;
+  top: 11px;
+  bottom: 10px;
+  right: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  width: 211px;
+  height: 49px;
+  background: #1a75e8;
+  color: #fff;
+}
+.hero .hero-text {
+  font-size: 14px;
+  color: #b2b2b2;
+  margin-top: 25px;
+  margin-bottom: 223px;
+}
+.hero .hero-text .example {
+  padding: 5px 10px;
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.hero .hero-img {
+  position: absolute;
+  top: 75px;
+  right: 153px;
 }/*# sourceMappingURL=main.css.map */

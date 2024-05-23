@@ -18,7 +18,63 @@ body {
     height: 49px;
     background: $buttons-primary;
     .reg-link:last-child {
-        color: $inputs-light;
+      color: $inputs-light;
     }
+  }
+}
+
+.hero {
+  background-color: $buttons-grey;
+  .hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    color: var(--text-primary);
+
+  }
+  .hero-info {
+    font-size: 18px;
+    line-height: 140%;
+    color: var(--text-primary);
+    margin-top: 15px;
+  }
+  .hero-form {
+    position: relative;
+    .form-input {
+      border: 1px solid rgba(209, 209, 209, 0.1);
+      border-radius: 5px;
+      width: 447px;
+      height: 70px;
+      padding-left: 25px;
+    }
+    .hero-btn {
+      position: absolute;
+      top: 11px;
+      bottom: 10px;
+      right: 10px;
+      border: none;
+      border-radius: 5px;
+      padding: 15px 30px;
+      width: 211px;
+      height: 49px;
+      background: $buttons-primary;
+      color: $inputs-light;
+    }
+  }
+  .hero-text {
+    font-size: 14px;
+    color: $inputs-grey;
+    margin-top: 25px;
+    margin-bottom: 223px;
+    .example {
+      padding: 5px 10px;
+      border: 1px solid $inputs-grey;
+      border-radius: 5px;
+      margin-left: 10px;
+    }
+  }
+  .hero-img {
+    position: absolute;
+    top: 75px;
+    right: 153px;
   }
 }
