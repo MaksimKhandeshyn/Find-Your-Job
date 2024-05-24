@@ -29,7 +29,6 @@ body {
     font-weight: 900;
     font-size: 44px;
     color: var(--text-primary);
-
   }
   .hero-info {
     font-size: 18px;
@@ -74,7 +73,54 @@ body {
   }
   .hero-img {
     position: absolute;
-    top: 75px;
+    top: 125px;
     right: 153px;
+  }
+}
+.category-title {
+  color: $text-primary;
+}
+.category-list {
+  display: flex;
+  .category-item {
+    border-radius: 10px;
+    width: 166px;
+    height: 128px;
+    display: flex;
+    background: $buttons-grey;
+    margin-right: 30px;
+    margin-top: 30px;
+
+    .category-link {
+      margin-top: 74px;
+      color: $text-primary;
+      width: 55px;
+      height: 19px;
+    }
+    .design {
+      margin-left: 55px;
+    }
+    .develop {
+      margin-left: 40px;
+    }
+    .copy-right {
+      margin-left: 33px;
+    }
+    .security {
+      margin-left: 31px;
+    }
+    .video {
+      margin-left: 59px;
+    }
+    .education {
+      margin-left: 32px;
+    }
+  }
+  .category-item:hover {
+    .category-link {
+      color: $inputs-light;
+    }
+    background-color: $buttons-primary;
+    cursor: pointer;
   }
 }
