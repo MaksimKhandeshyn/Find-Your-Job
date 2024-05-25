@@ -44,6 +44,8 @@ body {
       width: 447px;
       height: 70px;
       padding-left: 25px;
+      box-shadow: 0 4px 25px 0 rgba(15, 17, 56, 0.1);
+      background: var(--inputs-light);
     }
     .hero-btn {
       position: absolute;
@@ -77,50 +79,182 @@ body {
     right: 153px;
   }
 }
-.category-title {
-  color: $text-primary;
-}
-.category-list {
-  display: flex;
-  .category-item {
-    border-radius: 10px;
-    width: 166px;
-    height: 128px;
-    display: flex;
-    background: $buttons-grey;
-    margin-right: 30px;
-    margin-top: 30px;
 
-    .category-link {
-      margin-top: 74px;
-      color: $text-primary;
-      width: 55px;
-      height: 19px;
+.category {
+  padding-top: 78px;
+  .category-title {
+    color: $text-primary;
+  }
+  .category-list {
+    display: flex;
+    .category-item {
+      border-radius: 10px;
+      width: 166px;
+      height: 128px;
+      display: flex;
+      background: $buttons-grey;
+      margin-right: 30px;
+      margin-top: 30px;
+
+      .category-link {
+        margin-top: 74px;
+        color: $text-primary;
+        width: 55px;
+        height: 19px;
+      }
+      .design {
+        margin-left: 55px;
+      }
+      .develop {
+        margin-left: 40px;
+      }
+      .copy-right {
+        margin-left: 33px;
+      }
+      .security {
+        margin-left: 31px;
+      }
+      .video {
+        margin-left: 59px;
+      }
+      .education {
+        margin-left: 32px;
+      }
     }
-    .design {
-      margin-left: 55px;
-    }
-    .develop {
-      margin-left: 40px;
-    }
-    .copy-right {
-      margin-left: 33px;
-    }
-    .security {
-      margin-left: 31px;
-    }
-    .video {
-      margin-left: 59px;
-    }
-    .education {
-      margin-left: 32px;
+    .category-item:hover {
+      .category-link {
+        color: $inputs-light;
+      }
+      background-color: $buttons-primary;
+      cursor: pointer;
     }
   }
-  .category-item:hover {
-    .category-link {
-      color: $inputs-light;
+}
+
+.vacancy {
+  padding-top: 70px;
+  .vacancy-title {
+    color: $text-primary;
+  }
+  .vacancy-item {
+    border: 1px solid $text-primary;
+    border-radius: 10px;
+    width: 1146px;
+    height: 160px;
+    padding-top: 57px;
+    padding-left: 150px;
+    position: relative;
+    margin-bottom: 20px;
+    .vacancy-position {
+      font-weight: 700;
+      color: $text-primary;
     }
-    background-color: $buttons-primary;
-    cursor: pointer;
+    .vacancy-located {
+      color: $text-primary;
+      font-style: normal;
+      margin-top: 10px;
+    }
+    .vacancy-salary {
+      font-weight: 700;
+      font-size: 16px;
+      color: $inputs-light;
+      border-radius: 5px;
+      padding: 10px 25px;
+      width: 113px;
+      height: 39px;
+      background: $buttons-primary;
+      position: absolute;
+      top: 60px;
+      left: 369px;
+    }
+    .requirment {
+      font-size: 14px;
+      color: $inputs-grey;
+      position: absolute;
+      top: 70px;
+      left: 544px;
+      .example {
+        padding: 5px 10px;
+        border: 1px solid $inputs-grey;
+        border-radius: 5px;
+        margin-left: 10px;
+      }
+    }
+    .vacancy-link {
+      position: absolute;
+      top: 71px;
+      left: 1001px;
+      font-weight: 400;
+      font-size: 14px;
+      color: $buttons-primary;
+    }
+  }
+  .vacancy-btn {
+    border-radius: 5px;
+    padding: 15px 30px;
+    width: 193px;
+    height: 49px;
+    border: none;
+    color: $inputs-light;
+    background: $buttons-primary;
+    margin-left: 490px;
+    margin-bottom: 80px;
+  }
+}
+.mailing {
+  padding-top: 90px;
+  background: $buttons-grey;
+  padding-bottom: 90px;
+  .mailing-title {
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    width: 460px;
+    height: 86px;
+    margin: 0 auto;
+  }
+  .mailing-info {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: $text-primary;
+    width: 460px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .mailing-form {
+    position: relative;
+    width: 447px;
+    height: 70px;
+    // margin-top: 40px;
+    // padding-bottom: 90px;
+    margin: 0 auto;
+    .email-input {
+      width: 447px;
+      height: 70px;
+      box-shadow: 0 4px 25px 0 rgba(15, 17, 56, 0.1);
+      background: var(--inputs-light);
+      border: 1px solid rgba(209, 209, 209, 0.1);
+      border-radius: 5px;
+      width: 447px;
+      height: 70px;
+      padding-left: 25px;
+    }
+    .email-btn {
+      border: none;
+      border-radius: 5px;
+      padding: 15px 30px;
+      width: 181px;
+      height: 49px;
+      background: $buttons-primary;
+      color: $inputs-light;
+      position: absolute;
+      top: 11px;
+      left: 256px;
+    }
   }
 }
