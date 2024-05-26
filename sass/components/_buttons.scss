@@ -1,0 +1,37 @@
+.hero-btn {
+    position: absolute;
+    top: 11px;
+    bottom: 10px;
+    right: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    width: 211px;
+    height: 49px;
+    background: $buttons-primary;
+    color: $inputs-light;
+}
+
+.vacancy-btn {
+    border-radius: 5px;
+    padding: 15px 30px;
+    width: 193px;
+    height: 49px;
+    border: none;
+    color: $inputs-light;
+    background: $buttons-primary;
+    margin-left: 490px;
+    margin-bottom: 80px;
+}
+.email-btn {
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    width: 191px;
+    height: 49px;
+    background: $buttons-primary;
+    color: $inputs-light;
+    position: absolute;
+    top: 11px;
+    left: 246px;
+}

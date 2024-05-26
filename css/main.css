@@ -52,6 +52,45 @@ img {
   overflow: hidden;
 }
 
+.hero-btn {
+  position: absolute;
+  top: 11px;
+  bottom: 10px;
+  right: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  width: 211px;
+  height: 49px;
+  background: #1a75e8;
+  color: #fff;
+}
+
+.vacancy-btn {
+  border-radius: 5px;
+  padding: 15px 30px;
+  width: 193px;
+  height: 49px;
+  border: none;
+  color: #fff;
+  background: #1a75e8;
+  margin-left: 490px;
+  margin-bottom: 80px;
+}
+
+.email-btn {
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  width: 191px;
+  height: 49px;
+  background: #1a75e8;
+  color: #fff;
+  position: absolute;
+  top: 11px;
+  left: 246px;
+}
+
 .container {
   width: 1176px;
   margin: 0 auto;
@@ -132,6 +171,19 @@ img {
   margin-right: 133px;
 }
 
+.hero-form {
+  position: relative;
+}
+.hero-form .form-input {
+  border: 1px solid rgba(209, 209, 209, 0.1);
+  border-radius: 5px;
+  width: 447px;
+  height: 70px;
+  padding-left: 25px;
+  box-shadow: 0 4px 25px 0 rgba(15, 17, 56, 0.1);
+  background: var(--inputs-light);
+}
+
 .mailing-form {
   position: relative;
   width: 447px;
@@ -148,18 +200,6 @@ img {
   width: 447px;
   height: 70px;
   padding-left: 25px;
-}
-.mailing-form .email-btn {
-  border: none;
-  border-radius: 5px;
-  padding: 15px 30px;
-  width: 181px;
-  height: 49px;
-  background: #1a75e8;
-  color: #fff;
-  position: absolute;
-  top: 11px;
-  left: 256px;
 }
 
 body {
@@ -202,31 +242,6 @@ body {
   color: var(--text-primary);
   margin-top: 15px;
 }
-.hero .hero-form {
-  position: relative;
-}
-.hero .hero-form .form-input {
-  border: 1px solid rgba(209, 209, 209, 0.1);
-  border-radius: 5px;
-  width: 447px;
-  height: 70px;
-  padding-left: 25px;
-  box-shadow: 0 4px 25px 0 rgba(15, 17, 56, 0.1);
-  background: var(--inputs-light);
-}
-.hero .hero-form .hero-btn {
-  position: absolute;
-  top: 11px;
-  bottom: 10px;
-  right: 10px;
-  border: none;
-  border-radius: 5px;
-  padding: 15px 30px;
-  width: 211px;
-  height: 49px;
-  background: #1a75e8;
-  color: #fff;
-}
 .hero .hero-text {
   font-size: 14px;
   color: #b2b2b2;
@@ -262,30 +277,22 @@ body {
   background: #f2f3f6;
   margin-right: 30px;
   margin-top: 30px;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+.category .category-list .category-item .icon-link {
+  height: 24px;
+  position: absolute;
+  top: 35px;
+  left: 70px;
 }
 .category .category-list .category-item .category-link {
-  margin-top: 74px;
   color: #111238;
-  width: 55px;
-  height: 19px;
+  margin-top: 74px;
 }
-.category .category-list .category-item .design {
-  margin-left: 55px;
-}
-.category .category-list .category-item .develop {
-  margin-left: 40px;
-}
-.category .category-list .category-item .copy-right {
-  margin-left: 33px;
-}
-.category .category-list .category-item .security {
-  margin-left: 31px;
-}
-.category .category-list .category-item .video {
-  margin-left: 59px;
-}
-.category .category-list .category-item .education {
-  margin-left: 32px;
+.category .category-list .category-item .category-link .category-icon {
+  margin-bottom: 15px;
 }
 .category .category-list .category-item:hover {
   background-color: #1a75e8;
@@ -294,12 +301,16 @@ body {
 .category .category-list .category-item:hover .category-link {
   color: #fff;
 }
+.category .category-list .category-item:hover .category-icon {
+  fill: #fff;
+}
 
 .vacancy {
   padding-top: 70px;
 }
 .vacancy .vacancy-title {
   color: #111238;
+  margin-bottom: 40px;
 }
 .vacancy .vacancy-item {
   border: 1px solid #111238;
@@ -354,17 +365,6 @@ body {
   font-size: 14px;
   color: #1a75e8;
 }
-.vacancy .vacancy-btn {
-  border-radius: 5px;
-  padding: 15px 30px;
-  width: 193px;
-  height: 49px;
-  border: none;
-  color: #fff;
-  background: #1a75e8;
-  margin-left: 490px;
-  margin-bottom: 80px;
-}
 
 .mailing {
   padding-top: 90px;
@@ -391,4 +391,7 @@ body {
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 40px;
+}
+.mailing .mailing-icon {
+  margin-right: 10px;
 }/*# sourceMappingURL=main.css.map */

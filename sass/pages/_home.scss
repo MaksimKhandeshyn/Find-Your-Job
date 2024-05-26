@@ -36,31 +36,6 @@ body {
     color: var(--text-primary);
     margin-top: 15px;
   }
-  .hero-form {
-    position: relative;
-    .form-input {
-      border: 1px solid rgba(209, 209, 209, 0.1);
-      border-radius: 5px;
-      width: 447px;
-      height: 70px;
-      padding-left: 25px;
-      box-shadow: 0 4px 25px 0 rgba(15, 17, 56, 0.1);
-      background: var(--inputs-light);
-    }
-    .hero-btn {
-      position: absolute;
-      top: 11px;
-      bottom: 10px;
-      right: 10px;
-      border: none;
-      border-radius: 5px;
-      padding: 15px 30px;
-      width: 211px;
-      height: 49px;
-      background: $buttons-primary;
-      color: $inputs-light;
-    }
-  }
   .hero-text {
     font-size: 14px;
     color: $inputs-grey;
@@ -95,35 +70,29 @@ body {
       background: $buttons-grey;
       margin-right: 30px;
       margin-top: 30px;
-
+      justify-content: center;
+      text-align: center;
+      position: relative;
+      .icon-link {
+        height: 24px;
+        position: absolute;
+        top: 35px;
+        left: 70px;
+      }
       .category-link {
-        margin-top: 74px;
         color: $text-primary;
-        width: 55px;
-        height: 19px;
-      }
-      .design {
-        margin-left: 55px;
-      }
-      .develop {
-        margin-left: 40px;
-      }
-      .copy-right {
-        margin-left: 33px;
-      }
-      .security {
-        margin-left: 31px;
-      }
-      .video {
-        margin-left: 59px;
-      }
-      .education {
-        margin-left: 32px;
+        margin-top: 74px;
+        .category-icon {
+          margin-bottom: 15px;
+        }
       }
     }
     .category-item:hover {
       .category-link {
         color: $inputs-light;
+      }
+      .category-icon {
+        fill: $inputs-light;
       }
       background-color: $buttons-primary;
       cursor: pointer;
@@ -135,6 +104,7 @@ body {
   padding-top: 70px;
   .vacancy-title {
     color: $text-primary;
+    margin-bottom: 40px;
   }
   .vacancy-item {
     border: 1px solid $text-primary;
@@ -189,18 +159,8 @@ body {
       color: $buttons-primary;
     }
   }
-  .vacancy-btn {
-    border-radius: 5px;
-    padding: 15px 30px;
-    width: 193px;
-    height: 49px;
-    border: none;
-    color: $inputs-light;
-    background: $buttons-primary;
-    margin-left: 490px;
-    margin-bottom: 80px;
-  }
 }
+
 .mailing {
   padding-top: 90px;
   background: $buttons-grey;
@@ -226,7 +186,7 @@ body {
     margin-top: 20px;
     margin-bottom: 40px;
   }
-  
+  .mailing-icon {
+    margin-right: 10px;
+  }
 }
-
-
