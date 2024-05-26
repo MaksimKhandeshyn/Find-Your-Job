@@ -93,6 +93,75 @@ img {
   margin-right: 20px;
 }
 
+.footer {
+  padding-top: 70px;
+  padding-bottom: 73px;
+}
+.footer .footer-container {
+  display: flex;
+}
+.footer .copyright {
+  font-size: 12px;
+  line-height: 140%;
+  color: #b2b2b2;
+  display: flex;
+  margin-top: 23px;
+  width: 166px;
+  height: 34px;
+}
+.footer .footer-list {
+  display: flex;
+  margin-left: 122px;
+  margin-top: 32px;
+}
+.footer .footer-list .footer-item {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer-list .footer-item .footer-title {
+  font-size: 16px;
+  color: #111238;
+  margin-bottom: 15px;
+}
+.footer .footer-list .footer-item .footer-link {
+  color: #111238;
+  margin-bottom: 10px;
+}
+.footer .footer-list .footer-item:first-child,
+.footer .footer-list .footer-item:nth-child(2) {
+  margin-right: 133px;
+}
+
+.mailing-form {
+  position: relative;
+  width: 447px;
+  height: 70px;
+  margin: 0 auto;
+}
+.mailing-form .email-input {
+  width: 447px;
+  height: 70px;
+  box-shadow: 0 4px 25px 0 rgba(15, 17, 56, 0.1);
+  background: var(--inputs-light);
+  border: 1px solid rgba(209, 209, 209, 0.1);
+  border-radius: 5px;
+  width: 447px;
+  height: 70px;
+  padding-left: 25px;
+}
+.mailing-form .email-btn {
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  width: 181px;
+  height: 49px;
+  background: #1a75e8;
+  color: #fff;
+  position: absolute;
+  top: 11px;
+  left: 256px;
+}
+
 body {
   font-family: "Fira Sans", sans-serif;
 }
@@ -322,33 +391,4 @@ body {
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 40px;
-}
-.mailing .mailing-form {
-  position: relative;
-  width: 447px;
-  height: 70px;
-  margin: 0 auto;
-}
-.mailing .mailing-form .email-input {
-  width: 447px;
-  height: 70px;
-  box-shadow: 0 4px 25px 0 rgba(15, 17, 56, 0.1);
-  background: var(--inputs-light);
-  border: 1px solid rgba(209, 209, 209, 0.1);
-  border-radius: 5px;
-  width: 447px;
-  height: 70px;
-  padding-left: 25px;
-}
-.mailing .mailing-form .email-btn {
-  border: none;
-  border-radius: 5px;
-  padding: 15px 30px;
-  width: 181px;
-  height: 49px;
-  background: #1a75e8;
-  color: #fff;
-  position: absolute;
-  top: 11px;
-  left: 256px;
 }/*# sourceMappingURL=main.css.map */

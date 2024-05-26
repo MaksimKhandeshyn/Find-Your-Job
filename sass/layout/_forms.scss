@@ -1,0 +1,31 @@
+.mailing-form {
+  position: relative;
+  width: 447px;
+  height: 70px;
+  // margin-top: 40px;
+  // padding-bottom: 90px;
+  margin: 0 auto;
+  .email-input {
+    width: 447px;
+    height: 70px;
+    box-shadow: 0 4px 25px 0 rgba(15, 17, 56, 0.1);
+    background: var(--inputs-light);
+    border: 1px solid rgba(209, 209, 209, 0.1);
+    border-radius: 5px;
+    width: 447px;
+    height: 70px;
+    padding-left: 25px;
+  }
+  .email-btn {
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    width: 181px;
+    height: 49px;
+    background: $buttons-primary;
+    color: $inputs-light;
+    position: absolute;
+    top: 11px;
+    left: 256px;
+  }
+}
