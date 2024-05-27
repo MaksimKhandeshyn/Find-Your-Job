@@ -138,6 +138,7 @@ img {
 }
 .footer .footer-container {
   display: flex;
+  position: relative;
 }
 .footer .copyright {
   font-size: 12px;
@@ -147,6 +148,8 @@ img {
   margin-top: 23px;
   width: 166px;
   height: 34px;
+  position: absolute;
+  top: 33px;
 }
 .footer .footer-list {
   display: flex;
