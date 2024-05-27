@@ -28,12 +28,12 @@ body {
   .hero-title {
     font-weight: 900;
     font-size: 44px;
-    color: var(--text-primary);
+    color: $text-primary;
   }
   .hero-info {
     font-size: 18px;
     line-height: 140%;
-    color: var(--text-primary);
+    color: $text-primary;
     margin-top: 15px;
   }
   .hero-text {
@@ -115,6 +115,11 @@ body {
     padding-left: 150px;
     position: relative;
     margin-bottom: 20px;
+    .vacancy-img {
+      position: absolute;
+      left: 30px;
+      top: 30px;
+    }
     .vacancy-position {
       font-weight: 700;
       color: $text-primary;

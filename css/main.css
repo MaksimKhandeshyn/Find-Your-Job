@@ -173,6 +173,7 @@ img {
 
 .hero-form {
   position: relative;
+  margin-top: 30px;
 }
 .hero-form .form-input {
   border: 1px solid rgba(209, 209, 209, 0.1);
@@ -234,12 +235,12 @@ body {
 .hero .hero-title {
   font-weight: 900;
   font-size: 44px;
-  color: var(--text-primary);
+  color: #111238;
 }
 .hero .hero-info {
   font-size: 18px;
   line-height: 140%;
-  color: var(--text-primary);
+  color: #111238;
   margin-top: 15px;
 }
 .hero .hero-text {
@@ -321,6 +322,11 @@ body {
   padding-left: 150px;
   position: relative;
   margin-bottom: 20px;
+}
+.vacancy .vacancy-item .vacancy-img {
+  position: absolute;
+  left: 30px;
+  top: 30px;
 }
 .vacancy .vacancy-item .vacancy-position {
   font-weight: 700;
