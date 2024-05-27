@@ -187,6 +187,9 @@ img {
   box-shadow: 0 4px 25px 0 rgba(15, 17, 56, 0.1);
   background: var(--inputs-light);
 }
+.hero-form .form-input:focus {
+  outline: none;
+}
 
 .mailing-form {
   position: relative;
@@ -204,6 +207,9 @@ img {
   width: 447px;
   height: 70px;
   padding-left: 25px;
+}
+.mailing-form .email-input:focus {
+  outline: none;
 }
 
 body {
