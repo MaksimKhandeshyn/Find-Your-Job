@@ -2,13 +2,8 @@
   position: relative;
   margin-top: 30px;
   .form-input {
-    border: 1px solid rgba(209, 209, 209, 0.1);
-    border-radius: 5px;
-    width: 447px;
-    height: 70px;
-    padding-left: 25px;
-    box-shadow: 0 4px 25px 0 rgba(15, 17, 56, 0.1);
-    background: var(--inputs-light);
+    @extend %inputs;
+    background: $inputs-light;
   }
   .form-input:focus {
     outline: none;
@@ -20,15 +15,8 @@
   height: 70px;
   margin: 0 auto;
   .email-input {
-    width: 447px;
-    height: 70px;
-    box-shadow: 0 4px 25px 0 rgba(15, 17, 56, 0.1);
-    background: var(--inputs-light);
-    border: 1px solid rgba(209, 209, 209, 0.1);
-    border-radius: 5px;
-    width: 447px;
-    height: 70px;
-    padding-left: 25px;
+    @extend %inputs;
+    background: $inputs-light;
   }
   .email-input:focus {
     outline: none;

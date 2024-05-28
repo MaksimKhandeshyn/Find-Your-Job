@@ -31,15 +31,11 @@ body {
     color: $text-primary;
   }
   .hero-info {
-    font-size: 18px;
     line-height: 140%;
-    color: $text-primary;
-    margin-top: 15px;
+    @include font(18px, $text-primary, 15px);
   }
   .hero-text {
-    font-size: 14px;
-    color: $inputs-grey;
-    margin-top: 25px;
+    @include font(12px, $inputs-grey, 23px);
     margin-bottom: 223px;
     .example {
       padding: 5px 10px;
@@ -141,13 +137,12 @@ body {
       position: absolute;
       top: 60px;
       left: 369px;
+      @include pos(absolute, 369px, 60px);
     }
     .requirment {
       font-size: 14px;
       color: $inputs-grey;
-      position: absolute;
-      top: 70px;
-      left: 544px;
+      @include pos(absolute, 544px, 70px);
       .example {
         padding: 5px 10px;
         border: 1px solid $inputs-grey;
@@ -156,9 +151,7 @@ body {
       }
     }
     .vacancy-link {
-      position: absolute;
-      top: 71px;
-      left: 1001px;
+      @include pos(absolute, 1001px, 71px);
       font-weight: 400;
       font-size: 14px;
       color: $buttons-primary;
@@ -179,7 +172,6 @@ body {
     margin: 0 auto;
   }
   .mailing-info {
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 18px;
     line-height: 140%;

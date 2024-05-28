@@ -1,0 +1,10 @@
+@mixin font($fz, $color, $mt){
+    font-size: $fz;
+    color: $color;
+    margin-top: $mt;
+}
+@mixin pos($pos, $left, $top) {
+    position: $pos;
+    left: $left;
+    top: $top;
+}

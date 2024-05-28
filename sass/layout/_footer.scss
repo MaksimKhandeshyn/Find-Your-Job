@@ -1,16 +1,10 @@
 .footer {
   padding-top: 70px;
   padding-bottom: 73px;
-  .footer-container {
-    display: flex;
-    position: relative;
-  }
   .copyright {
-    font-size: 12px;
     line-height: 140%;
-    color: $inputs-grey;
     display: flex;
-    margin-top: 23px;
+    @include font(12px, $inputs-grey, 23px);
     width: 166px;
     height: 34px;
     position: absolute;
@@ -21,6 +15,7 @@
     display: flex;
     margin-left: 122px;
     margin-top: 32px;
+    column-gap: 122px;
     .footer-item {
       display: flex;
       flex-direction: column;
@@ -33,10 +28,6 @@
         color: $text-primary;
         margin-bottom: 10px;
       }
-    }
-    .footer-item:first-child,
-    .footer-item:nth-child(2) {
-      margin-right: 133px;
     }
   }
 }

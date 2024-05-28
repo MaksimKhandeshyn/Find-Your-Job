@@ -1,3 +1,19 @@
+.email-btn, .vacancy-btn, .hero-btn {
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  height: 49px;
+}
+
+.mailing-form .email-input, .hero-form .form-input {
+  width: 447px;
+  height: 70px;
+  padding-left: 25px;
+  box-shadow: 0 4px 25px 0 rgba(15, 17, 56, 0.1);
+  border: 1px solid rgba(209, 209, 209, 0.1);
+  border-radius: 5px;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -57,21 +73,13 @@ img {
   top: 11px;
   bottom: 10px;
   right: 10px;
-  border: none;
-  border-radius: 5px;
-  padding: 15px 30px;
   width: 211px;
-  height: 49px;
   background: #1a75e8;
   color: #fff;
 }
 
 .vacancy-btn {
-  border-radius: 5px;
-  padding: 15px 30px;
   width: 193px;
-  height: 49px;
-  border: none;
   color: #fff;
   background: #1a75e8;
   margin-left: 490px;
@@ -79,11 +87,7 @@ img {
 }
 
 .email-btn {
-  border: none;
-  border-radius: 5px;
-  padding: 15px 30px;
   width: 191px;
-  height: 49px;
   background: #1a75e8;
   color: #fff;
   position: absolute;
@@ -111,6 +115,11 @@ img {
   padding-top: 118px;
 }
 
+.footer-container {
+  display: flex;
+  position: relative;
+}
+
 .header {
   background: #f2f3f6;
 }
@@ -136,15 +145,11 @@ img {
   padding-top: 70px;
   padding-bottom: 73px;
 }
-.footer .footer-container {
-  display: flex;
-  position: relative;
-}
 .footer .copyright {
-  font-size: 12px;
   line-height: 140%;
-  color: #b2b2b2;
   display: flex;
+  font-size: 12px;
+  color: #b2b2b2;
   margin-top: 23px;
   width: 166px;
   height: 34px;
@@ -155,6 +160,8 @@ img {
   display: flex;
   margin-left: 122px;
   margin-top: 32px;
+  -moz-column-gap: 122px;
+       column-gap: 122px;
 }
 .footer .footer-list .footer-item {
   display: flex;
@@ -169,23 +176,13 @@ img {
   color: #111238;
   margin-bottom: 10px;
 }
-.footer .footer-list .footer-item:first-child,
-.footer .footer-list .footer-item:nth-child(2) {
-  margin-right: 133px;
-}
 
 .hero-form {
   position: relative;
   margin-top: 30px;
 }
 .hero-form .form-input {
-  border: 1px solid rgba(209, 209, 209, 0.1);
-  border-radius: 5px;
-  width: 447px;
-  height: 70px;
-  padding-left: 25px;
-  box-shadow: 0 4px 25px 0 rgba(15, 17, 56, 0.1);
-  background: var(--inputs-light);
+  background: #fff;
 }
 .hero-form .form-input:focus {
   outline: none;
@@ -198,15 +195,7 @@ img {
   margin: 0 auto;
 }
 .mailing-form .email-input {
-  width: 447px;
-  height: 70px;
-  box-shadow: 0 4px 25px 0 rgba(15, 17, 56, 0.1);
-  background: var(--inputs-light);
-  border: 1px solid rgba(209, 209, 209, 0.1);
-  border-radius: 5px;
-  width: 447px;
-  height: 70px;
-  padding-left: 25px;
+  background: #fff;
 }
 .mailing-form .email-input:focus {
   outline: none;
@@ -247,15 +236,15 @@ body {
   color: #111238;
 }
 .hero .hero-info {
-  font-size: 18px;
   line-height: 140%;
+  font-size: 18px;
   color: #111238;
   margin-top: 15px;
 }
 .hero .hero-text {
-  font-size: 14px;
+  font-size: 12px;
   color: #b2b2b2;
-  margin-top: 25px;
+  margin-top: 23px;
   margin-bottom: 223px;
 }
 .hero .hero-text .example {
@@ -358,13 +347,16 @@ body {
   position: absolute;
   top: 60px;
   left: 369px;
+  position: absolute;
+  left: 369px;
+  top: 60px;
 }
 .vacancy .vacancy-item .requirment {
   font-size: 14px;
   color: #b2b2b2;
   position: absolute;
-  top: 70px;
   left: 544px;
+  top: 70px;
 }
 .vacancy .vacancy-item .requirment .example {
   padding: 5px 10px;
@@ -374,8 +366,8 @@ body {
 }
 .vacancy .vacancy-item .vacancy-link {
   position: absolute;
-  top: 71px;
   left: 1001px;
+  top: 71px;
   font-weight: 400;
   font-size: 14px;
   color: #1a75e8;
@@ -395,7 +387,6 @@ body {
   margin: 0 auto;
 }
 .mailing .mailing-info {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 18px;
   line-height: 140%;
