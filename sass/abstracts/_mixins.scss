@@ -8,3 +8,9 @@
     left: $left;
     top: $top;
 }
+@mixin border($border-radius, $w, $h, $position) {
+    border-radius: $border-radius;
+    width: $w;
+    height: $h;
+    position: $position;
+}

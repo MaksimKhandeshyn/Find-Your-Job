@@ -3,10 +3,8 @@
   padding-bottom: 73px;
   .copyright {
     line-height: 140%;
-    display: flex;
     @include font(12px, $inputs-grey, 23px);
     width: 166px;
-    height: 34px;
     position: absolute;
     top: 33px;
   }
