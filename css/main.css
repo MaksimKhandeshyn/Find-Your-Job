@@ -149,7 +149,7 @@ img {
   padding-bottom: 73px;
 }
 .footer .copyright {
-  line-height: 140%;
+  line-height: 1.16;
   font-size: 12px;
   color: #b2b2b2;
   margin-top: 23px;
@@ -385,15 +385,15 @@ body {
   margin: 0 auto;
 }
 .mailing .mailing-info {
-  font-weight: 400;
   font-size: 18px;
+  color: #111238;
+  margin-top: 20px;
+  font-weight: 400;
   line-height: 140%;
   text-align: center;
-  color: #111238;
   width: 460px;
   height: 50px;
   margin: 0 auto;
-  margin-top: 20px;
   margin-bottom: 40px;
 }
 .mailing .mailing-icon {
